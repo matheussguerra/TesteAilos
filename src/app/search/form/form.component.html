@@ -1,0 +1,22 @@
+<div class="form">
+    <form [formGroup]="searchByCpfForm" (ngSubmit)="submit()">
+        <label for="cpfField" class="label">CPF</label>
+        <div class="input">           
+            <input 
+            ngModel
+            formControlName="cpf"
+            maxlength="14"
+            required id="cpfField"
+            placeholder="000.000.000-00"
+            [class.invalid]="cpf?.invalid && cpf?.touched">
+            <button type="submit" [disabled]="cpf?.invalid">
+                Consultar por CPF
+            </button>
+        </div>
+
+
+
+    </form>
+</div>
+
+<span *ngIf="cpf?.invalid && cpf?.touched" class="error">Informe um CPF válido</span>

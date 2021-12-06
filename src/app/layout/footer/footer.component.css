@@ -1,0 +1,19 @@
+.container {
+    position: relative;
+    height: 78px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    margin-left: 25px;
+    height: 48px;
+    width: 218px;
+}
+
+.button-secundary-container {
+    margin-left: 15px;
+    height: 48px;
+    width: 274px;
+}

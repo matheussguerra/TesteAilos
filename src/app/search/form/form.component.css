@@ -1,0 +1,44 @@
+.form {
+    margin-top: 16px;
+}
+
+.label {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.input {
+    height: 34px;
+}
+.input input {
+    width: 270px;
+    background-color: #FFF;
+    border: solid 1px;
+    border-color: #889499;
+    border-radius: 2px;
+    height: 100%;
+}
+
+.input button {
+    margin-left: 16px;
+    background-color: #165C7D;
+    border-radius: 2px;
+    height: 100%;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    width: 172px;
+}
+
+.error {
+    color: #f44336;
+    font-size: 0.8em;
+  }
+  
+.invalid {
+    border: solid 1px !important;
+    border-color: #f44336 !important;
+  }

@@ -1,0 +1,139 @@
+.header {
+    height: 89px;
+    flex: 1;
+    background-color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+}
+
+.user-actions {
+    display: flex;
+    margin-right: 20px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+}
+
+.title span {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    color: #101213;
+}
+
+.header p {
+    width: 489px;
+    height: 18px;
+    left: 24px;
+    color: #787878;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.notify {
+    margin-right: 20px;
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.bell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #125D79;
+    font-size: 30px;
+    
+}
+
+.badge-container {
+    margin-top: -20px;
+    margin-left: -10px;
+}
+
+.badge {
+    z-index: 10;
+    font-family: sans-serif;
+    font-size: 11px;
+    padding: 3px 6px;
+    border-radius: 50%;
+    background: red;
+    color: white;
+
+}
+
+
+.button-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 109px;
+    height: 32px;
+    right: 76px;
+
+    background: #FFFFFF;
+    border: 1px solid #125D79;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+   
+
+    margin-right: 20px;
+}
+.button-header a {
+    text-decoration: none;
+}
+
+.button-header span {
+    font-family: 'Exo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #125D79;
+}
+
+
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #125D79;
+    box-sizing: border-box;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.settings{
+    margin-top: -17px;
+    margin-left: 20px;
+}
+
+.cog {
+    color: #165C7D;
+}
+
+
+
+
+
+
+  

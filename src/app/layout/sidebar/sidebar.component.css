@@ -1,0 +1,58 @@
+.container {
+    position: relative;
+    width: 100px;
+    height: 100%;
+    background: #165C7D;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo img {
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+
+}
+
+
+.example-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #eee;
+  }
+
+
+.toggle-btn {
+    margin-top: 32px;
+}
+
+.bars {
+    font-size: 24px;
+    color: #739DB1;
+}
+
+
+.nav-list{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list a {
+    margin-top: 30px;
+}
+
+.nav-list img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon{
+    color: #FFFFFF;
+    font-size: 28px;
+}

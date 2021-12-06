@@ -1,0 +1,21 @@
+<div class="stepper">
+    <app-stepper>
+
+    </app-stepper>
+</div>
+
+<div class="header">
+    <span class=title>
+        Informe o CPF do futuro cooperado (a)
+    </span>
+    <p>
+        Se necessário, você poderá duplicar uma conta existente ou pausar e retomar este cadastro futuramente. Digite apenas os números (sem pontos ou traços). 
+    </p>
+
+    <app-form (formSubmissionData)=recieveData($event)></app-form>
+
+
+    <app-cards *ngIf="userData"></app-cards>
+
+</div>
+
